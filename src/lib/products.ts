@@ -1,9 +1,9 @@
-import g1 from "@/assets/granite-1.png.asset.json";
-import g2 from "@/assets/granite-2.png.asset.json";
-import g3 from "@/assets/granite-3.png.asset.json";
-import g4 from "@/assets/granite-4.png.asset.json";
-import g5 from "@/assets/granite-5.png.asset.json";
-import g6 from "@/assets/granite-6.png.asset.json";
+import g1 from "@/assets/granite-1.png";
+import g2 from "@/assets/granite-2.png";
+import g3 from "@/assets/granite-3.png";
+import g4 from "@/assets/granite-4.png";
+import g5 from "@/assets/granite-5.png";
+import g6 from "@/assets/granite-6.png";
 import mTravertine from "@/assets/marble-travertine.png";
 import mZiarat from "@/assets/marble-ziarat-white.png";
 import mPanda from "@/assets/marble-panda-white.png";
@@ -59,32 +59,32 @@ export const PRODUCTS: Product[] = [
   { slug: "sado-pink-granite", name: "Sado Pink Granite", origin: "Pakistan", category: "local-granite", categoryLabel: "Local Granite",
     tagline: "Warm pink-grey tones with soft grain.",
     desc: "A Pakistani favourite quarried from the northern regions. Sado Pink Granite brings a soft warmth to any space, ideal for kitchen countertops and grand flooring installations.",
-    image: g1.url, price: "From Rs. 350 / sq.ft",
+    image: g1, price: "From Rs. 350 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Pink, Grey, Rust" } },
   { slug: "tropical-granite", name: "Tropical Granite", origin: "Pakistan", category: "local-granite", categoryLabel: "Local Granite",
     tagline: "Classic black & white speckled finish.",
     desc: "A timeless dense-grain tropical granite with striking contrast. Extremely durable, perfect for high-traffic floors and staircases.",
-    image: g2.url, price: "From Rs. 320 / sq.ft",
+    image: g2, price: "From Rs. 320 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Black, White" } },
   { slug: "lavender-grey-granite", name: "Lavender Grey Granite", origin: "Pakistan", category: "local-granite", categoryLabel: "Local Granite",
     tagline: "Cool lavender-grey with subtle sparkle.",
     desc: "Refined lavender-grey granite with faint mineral shimmer, well suited to modern interiors and vanity tops.",
-    image: g3.url, price: "From Rs. 380 / sq.ft",
+    image: g3, price: "From Rs. 380 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Lavender, Grey" } },
   { slug: "imperial-grey-granite", name: "Imperial Grey Granite", origin: "Pakistan", category: "local-granite", categoryLabel: "Local Granite",
     tagline: "High-contrast imperial grey grain.",
     desc: "A bold Imperial Grey granite with coarse crystalline flecks — a striking choice for statement kitchen islands and feature floors.",
-    image: g4.url, price: "From Rs. 400 / sq.ft",
+    image: g4, price: "From Rs. 400 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Grey, White, Black" } },
-  { slug: "tropical-brown-granite", name: "Tropical Brown Granite", origin: "Pakistan", category: "local-granite", categoryLabel: "Local Granite",
+  { slug: "tropical-brown-granite", name: "Cherry Brown Granite", origin: "chaina", category: "imported-granite", categoryLabel: "imported Granite",
     tagline: "Rich earthy brown with dark accents.",
-    desc: "Warm and inviting, Tropical Brown pairs beautifully with wooden cabinetry and traditional interiors.",
-    image: g5.url, price: "From Rs. 360 / sq.ft",
+    desc: "Warm and inviting, Cherry Brown pairs beautifully with wooden cabinetry and traditional interiors.",
+    image: g5, price: "From Rs. 360 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Brown, Black" } },
   { slug: "black-granite", name: "Black Granite", origin: "Pakistan", category: "local-granite", categoryLabel: "Local Granite",
     tagline: "Deep jet black — dramatic and premium.",
     desc: "A near-solid black granite that delivers unmatched drama. Excellent for luxury countertops and feature walls.",
-    image: g6.url, price: "From Rs. 420 / sq.ft",
+    image: g6, price: "From Rs. 420 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Jet Black" } },
 
   // LOCAL MARBLE
