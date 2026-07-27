@@ -8,7 +8,7 @@ function Brand({ size = "md" }: { size?: "md" | "lg" }) {
   const nameSize = size === "lg" ? "text-2xl md:text-3xl" : "text-xl md:text-2xl";
   return (
     <div className="flex items-center gap-3">
-      <img src={rsmIcon.url} alt="RSM" className={`${iconSize} object-contain`} />
+      <img src={rsmIcon} alt="RSM" className={`${iconSize} object-contain`} />
       <div className="leading-tight">
         <div className={`font-display font-bold text-foreground ${nameSize}`}>Rana Saqib</div>
         <div className="text-[10px] md:text-xs font-semibold uppercase tracking-[0.28em] text-[var(--gold)]">
