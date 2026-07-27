@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight, Sparkles, Truck, ShieldCheck, Hammer, Ruler, Gem, Quote, Star, Phone, ChevronDown, MapPin, Clock, Send } from "lucide-react";
 import { SiteLayout } from "@/components/SiteLayout";
-import banner from "@/assets/hero-banner.jpg.asset.json";
+import banner from "@/assets/granite-1.png";
 import g6 from "@/assets/granite-6.png.asset.json";
 import { getByCategory, type Category, type Product } from "@/lib/products";
 
