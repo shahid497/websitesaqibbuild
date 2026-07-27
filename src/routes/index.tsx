@@ -5,7 +5,6 @@ import { SiteLayout } from "@/components/SiteLayout";
 import banner from "@/assets/granite-1.png";
 import g6 from "@/assets/granite-1.png";
 import { getByCategory, type Category, type Product } from "@/lib/products";
-console.log(banner);
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -24,7 +23,7 @@ function Home() {
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
         <img
-  src={banner}
+  src={banner.url}
   alt="Marble & granite showroom"
   className="absolute inset-0 h-full w-full object-cover opacity-55"
   width={1920}
