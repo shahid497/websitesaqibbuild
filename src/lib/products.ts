@@ -1,22 +1,22 @@
-import g1 from "@/assets/granite-1.png.asset.json";
-import g2 from "@/assets/granite-2.png.asset.json";
-import g3 from "@/assets/granite-3.png.asset.json";
-import g4 from "@/assets/granite-4.png.asset.json";
-import g5 from "@/assets/granite-5.png.asset.json";
-import g6 from "@/assets/granite-6.png.asset.json";
+import g1 from "@/assets/granite-1.png";
+import g2 from "@/assets/granite-2.png";
+import g3 from "@/assets/granite-3.png";
+import g4 from "@/assets/granite-4.png";
+import g5 from "@/assets/granite-5.png";
+import g6 from "@/assets/granite-6.png";
 import mTravertine from "@/assets/marble-travertine.png";
-import mZiarat from "@/assets/marble-ziarat-white.png.asset.json";
-import mPanda from "@/assets/marble-panda-white.png.asset.json";
-import mBotticino from "@/assets/marble-botticino.png.asset.json";
-import mGreen from "@/assets/marble-indian-green.png.asset.json";
-import mEmperador from "@/assets/marble-dark-emperador.png.asset.json";
-import lmTrevera from "@/assets/lm-Trevera_Marble.png.asset.json";
-import lmTravertineQ from "@/assets/lm-Travertine_q.png.asset.json";
-import lmSilkyBlack from "@/assets/lm-Silky_Black_Marble.png.asset.json";
-import lmPumpoo from "@/assets/lm-Pumpoo_Marble.png.asset.json";
-import lmOceanic from "@/assets/lm-Oceanic_Marble.png.asset.json";
-import lmBlackGold from "@/assets/lm-black_and_gold.png.asset.json";
-import lmBadal from "@/assets/lm-badal.png.asset.json";
+import mZiarat from "@/assets/marble-ziarat-white.png";
+import mPanda from "@/assets/marble-panda-white.png";
+import mBotticino from "@/assets/marble-botticino.png";
+import mGreen from "@/assets/marble-indian-green.png";
+import mEmperador from "@/assets/marble-dark-emperador.png";
+import lmTrevera from "@/assets/lm-Trevera_Marble.png";
+import lmTravertineQ from "@/assets/lm-Travertine_q.png";
+import lmSilkyBlack from "@/assets/lm-Silky_Black_Marble.png";
+import lmPumpoo from "@/assets/lm-Pumpoo_Marble.png";
+import lmOceanic from "@/assets/lm-Oceanic_Marble.png";
+import lmBlackGold from "@/assets/lm-black_and_gold.png";
+import lmBadal from "@/assets/lm-badal.png";
 
 export type Category = "local-granite" | "imported-granite" | "local-marble" | "imported-marble";
 
@@ -91,37 +91,37 @@ export const PRODUCTS: Product[] = [
   { slug: "trevera-marble", name: "Trevera Marble", origin: "Pakistan", category: "local-marble", categoryLabel: "Local Marble",
     tagline: "Warm beige marble with fossil-like clusters.",
     desc: "A distinctive Pakistani marble with soft beige tones and fossil-style mineral clusters. Ideal for flooring and cladding with a naturally timeless character.",
-    image: lmTrevera.url, price: "From Rs. 240 / sq.ft",
+    image: lmTrevera, price: "From Rs. 240 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Beige, Cream" } },
   { slug: "travertine-q", name: "Travertine Q", origin: "Pakistan", category: "local-marble", categoryLabel: "Local Marble",
     tagline: "Vertical-grain travertine with warm ivory tones.",
     desc: "Locally sourced travertine with dramatic vertical grain and warm ivory-caramel tones. Perfect for feature walls, facades and elegant flooring.",
-    image: lmTravertineQ.url, price: "From Rs. 260 / sq.ft",
+    image: lmTravertineQ, price: "From Rs. 260 / sq.ft",
     specs: { ...defaultSpecs, finish: "Honed, Filled", bestFor: "Facades, Flooring, Walls", colourRange: "Ivory, Beige, Walnut" } },
   { slug: "silky-black-marble", name: "Silky Black Marble", origin: "Pakistan", category: "local-marble", categoryLabel: "Local Marble",
     tagline: "Deep silky black with fine white veining.",
     desc: "A refined black marble with a smooth, silky surface and delicate white veining — a bold and elegant choice for feature floors and vanities.",
-    image: lmSilkyBlack.url, price: "From Rs. 320 / sq.ft",
+    image: lmSilkyBlack, price: "From Rs. 320 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Black, White" } },
   { slug: "pumpoo-marble", name: "Pumpoo Marble", origin: "Pakistan", category: "local-marble", categoryLabel: "Local Marble",
     tagline: "Bright white marble with subtle black flecks.",
     desc: "A clean, bright white local marble with soft horizontal black flecks. Excellent for luminous flooring and modern interiors.",
-    image: lmPumpoo.url, price: "From Rs. 220 / sq.ft",
+    image: lmPumpoo, price: "From Rs. 220 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "White, Black" } },
   { slug: "oceanic-marble", name: "Oceanic Marble", origin: "Pakistan", category: "local-marble", categoryLabel: "Local Marble",
     tagline: "Earthy olive-brown with organic cluster patterns.",
     desc: "A warm olive-brown marble with natural cluster patterns — an unusual and richly textured pick for statement floors and wall cladding.",
-    image: lmOceanic.url, price: "From Rs. 270 / sq.ft",
+    image: lmOceanic, price: "From Rs. 270 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Olive, Brown, Cream" } },
   { slug: "black-and-gold-marble", name: "Black & Gold Marble", origin: "Pakistan", category: "local-marble", categoryLabel: "Local Marble",
     tagline: "Dramatic black with golden-copper veins.",
     desc: "A show-stopping marble with deep black base and dramatic golden-copper and white veining. Perfect for feature walls, islands and luxury vanities.",
-    image: lmBlackGold.url, price: "From Rs. 420 / sq.ft",
+    image: lmBlackGold, price: "From Rs. 420 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Black, Gold, Copper, White" } },
   { slug: "badal-marble", name: "Badal Marble", origin: "Pakistan", category: "local-marble", categoryLabel: "Local Marble",
     tagline: "Cloud-like grey marble with soft white drifts.",
     desc: "Named for its cloud-like patterns, Badal Marble features soft grey base with drifting white veins — a serene, contemporary choice for floors and walls.",
-    image: lmBadal.url, price: "From Rs. 290 / sq.ft",
+    image: lmBadal, price: "From Rs. 290 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Grey, White" } },
 
   // IMPORTED MARBLE
@@ -133,27 +133,27 @@ export const PRODUCTS: Product[] = [
   { slug: "ziarat-white", name: "Ziarat White", origin: "Imported Grade", category: "imported-marble", categoryLabel: "Imported Marble",
     tagline: "Pure white marble with soft cloud veining.",
     desc: "A clean, luminous white marble prized for its consistent tone. Ideal for luxurious flooring, bathrooms and cladding.",
-    image: mZiarat.url, price: "From Rs. 280 / sq.ft",
+    image: mZiarat, price: "From Rs. 280 / sq.ft",
     specs: { ...defaultSpecs, finish: "Polished, Honed", bestFor: "Flooring, Bathrooms, Walls", colourRange: "Pure White" } },
   { slug: "panda-white", name: "Panda White", origin: "China", category: "imported-marble", categoryLabel: "Imported Marble",
     tagline: "Dramatic white marble with bold black veins.",
     desc: "One of the most striking marbles available — bold black veins ripple across a bright white base, perfect for feature walls and statement countertops.",
-    image: mPanda.url, price: "From Rs. 850 / sq.ft",
+    image: mPanda, price: "From Rs. 850 / sq.ft",
     specs: { ...defaultSpecs, bestFor: "Feature Walls, Vanities, Islands", colourRange: "White, Black" } },
   { slug: "botticino-beige", name: "Botticino Beige", origin: "Italy / Turkey", category: "imported-marble", categoryLabel: "Imported Marble",
     tagline: "Creamy beige marble with soft mineral clusters.",
     desc: "A warm neutral marble perfect for classic and transitional interiors. Balanced clusters of caramel and cream give it depth without overwhelming a room.",
-    image: mBotticino.url, price: "From Rs. 550 / sq.ft",
+    image: mBotticino, price: "From Rs. 550 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Beige, Cream, Caramel" } },
   { slug: "indian-green", name: "Indian Green", origin: "India", category: "imported-marble", categoryLabel: "Imported Marble",
     tagline: "Deep forest-green marble with white veining.",
     desc: "A regal deep-green marble with delicate white veins. A striking pick for accent walls, temples and reception counters.",
-    image: mGreen.url, price: "From Rs. 480 / sq.ft",
+    image: mGreen, price: "From Rs. 480 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Deep Green, White" } },
   { slug: "dark-emperador", name: "Dark Emperador", origin: "Spain / Turkey", category: "imported-marble", categoryLabel: "Imported Marble",
     tagline: "Rich chocolate marble with fine white veining.",
     desc: "A luxurious dark brown marble with lace-like white veins. Pairs beautifully with brass fittings and warm woods.",
-    image: mEmperador.url, price: "From Rs. 720 / sq.ft",
+    image: mEmperador, price: "From Rs. 720 / sq.ft",
     specs: { ...defaultSpecs, colourRange: "Chocolate, Cream" } },
 ];
 
