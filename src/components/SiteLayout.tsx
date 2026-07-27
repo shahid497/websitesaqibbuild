@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import { ChevronDown, MapPin, Phone, Menu, X, MessageCircle, Facebook, Instagram } from "lucide-react";
-import rsmIcon from "@/assets/rsm-icon.png.asset.json";
+import rsmIcon from "@/assets/rsm-icon.png";
 
 function Brand({ size = "md" }: { size?: "md" | "lg" }) {
   const iconSize = size === "lg" ? "h-14 w-14" : "h-12 w-12";
