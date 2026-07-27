@@ -5,7 +5,7 @@ import { SiteLayout } from "@/components/SiteLayout";
 import banner from "@/assets/granite-1.png";
 import g6 from "@/assets/granite-1.png";
 import { getByCategory, type Category, type Product } from "@/lib/products";
-
+console.log(banner);
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
