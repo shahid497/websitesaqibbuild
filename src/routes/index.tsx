@@ -23,11 +23,11 @@ function Home() {
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
         <img
-  src={banner}
-  alt="Marble & granite showroom"
-  className="absolute inset-0 h-full w-full object-cover opacity-55"
-  width={1920}
-  height={1080}
+        src={banner}
+        alt="Marble & granite showroom"
+        className="absolute inset-0 h-full w-full object-cover opacity-55"
+        width={1920}
+        height={1080}
 />
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background/70 to-transparent" />
         <div className="relative mx-auto max-w-7xl px-4 py-28 md:px-8 md:py-40">
