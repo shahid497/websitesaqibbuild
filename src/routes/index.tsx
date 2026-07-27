@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowRight, Sparkles, Truck, ShieldCheck, Hammer, Ruler, Gem, Quote, Star, Phone, ChevronDown, MapPin, Clock, Send } from "lucide-react";
 import { SiteLayout } from "@/components/SiteLayout";
-import banner from "@/assets/granite-1.png";
+import banner from "@/assets/hero-banner.jpg";
 import g6 from "@/assets/granite-1.png";
 import { getByCategory, type Category, type Product } from "@/lib/products";
 export const Route = createFileRoute("/")({
@@ -23,7 +23,7 @@ function Home() {
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
         <img
-  src={banner.url}
+  src={banner}
   alt="Marble & granite showroom"
   className="absolute inset-0 h-full w-full object-cover opacity-55"
   width={1920}
