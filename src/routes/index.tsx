@@ -24,12 +24,12 @@ function Home() {
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
         <img
-          src={banner.url}
-          alt="Marble & granite showroom"
-          className="absolute inset-0 h-full w-full object-cover opacity-55"
-          width={1920}
-          height={1080}
-        />
+  src={banner}
+  alt="Marble & granite showroom"
+  className="absolute inset-0 h-full w-full object-cover opacity-55"
+  width={1920}
+  height={1080}
+/>
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background/70 to-transparent" />
         <div className="relative mx-auto max-w-7xl px-4 py-28 md:px-8 md:py-40">
           <span className="inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/40 bg-background/40 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-[var(--gold)] backdrop-blur">
