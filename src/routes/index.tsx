@@ -24,7 +24,7 @@ function Home() {
       {/* HERO */}
       <section className="relative isolate overflow-hidden">
         <img
-          src={banner.url}
+          src={banner}
           alt="Marble & granite showroom"
           className="absolute inset-0 h-full w-full object-cover opacity-55"
           width={1920}
