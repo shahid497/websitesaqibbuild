@@ -101,7 +101,7 @@ function Home() {
         <div className="mx-auto grid max-w-7xl gap-12 px-4 py-24 md:grid-cols-2 md:px-8 md:items-center">
           <div className="relative">
             <div className="absolute -inset-4 rounded-2xl bg-gradient-to-br from-[var(--gold)]/20 to-transparent blur-2xl" />
-            <img src={g6.url} alt="Black granite craftsmanship" className="relative rounded-2xl border border-[var(--gold)]/20 shadow-2xl" />
+            <img src={g6} alt="Black granite craftsmanship" className="relative rounded-2xl border border-[var(--gold)]/20 shadow-2xl" />
             <div className="absolute -bottom-6 -right-6 hidden rounded-xl border border-[var(--gold)]/40 bg-background/90 px-6 py-4 shadow-xl backdrop-blur md:block">
               <div className="font-display text-3xl text-gradient-gold">20+</div>
               <div className="text-xs uppercase tracking-widest text-muted-foreground">Years crafting stone</div>
